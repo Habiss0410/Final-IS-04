@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.demo.mitm.app-mergeDebugResources-45:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/Users/phamthuha/.gradle/caches/8.8/transforms/2c34e1e2642687cd546b3d6cd16a9c7e/transformed/jetified-material3-release/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}
