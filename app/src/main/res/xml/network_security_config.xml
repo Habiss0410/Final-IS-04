@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
-    <domain-config cleartextTrafficPermitted="false">
-        <domain includeSubdomains="true">10.0.2.2</domain>
-        <pin-set expiration="2027-01-01">
-            <pin digest="SHA-256">B+k1n+h3qxEjS2bMGKH27YXsU4D8aj++9gqnZ4624EU=</pin>
-            <pin digest="SHA-256">47DEQpj8HBSa+/TImW+5JCeuQerKm5NMpJWZG3hSuFU=</pin>
-        </pin-set>
+    <base-config cleartextTrafficPermitted="true">
         <trust-anchors>
-            <certificates src="system" />
+            <certificates src="system"/>
+            <certificates src="user"/>
         </trust-anchors>
-    </domain-config>
+    </base-config>
 </network-security-config>
